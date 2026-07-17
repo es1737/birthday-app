@@ -199,5 +199,3 @@ else:
     col1, col2, col3 = st.columns([1, 1, 1])
     with col2:
         st.button("다음", on_click=next_message, use_container_width=True)
-
-st.caption(f"현재 {idx + 1} / {len(MESSAGES)} 번째 문구")
